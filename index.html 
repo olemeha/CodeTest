@@ -4,10 +4,18 @@
     <title>Code Test</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" media="screen" href="style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="script.js"></script>
   </head>
   <body>
-		
+		<div id = "page_container">
+			<p>FeaturedDeals</p>
+			<img src = "Media/AdPicture.jpg" alt = "adPicture">
+			<i class="fa-thin fa-tag"></i>
+			<h3> $40 OFF THE YUMMLY SMART MEAT THERMOMETER WITH BLUETOOTH</h3>
+			<p> Get the results you want, every time, with the completely wireless Yummly&#8480 meat thermometer</p>
+			<p> SHOP NOW > </p> 
+		</div>
 	</body>
 </html>
