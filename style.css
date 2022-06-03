@@ -33,7 +33,7 @@
 	text-transform: uppercase;
 }
 .first_ad_container .text_container .icon_and_text i{
-	margin-right: 5px;
+	margin-right: 10px;
  	float: left;
 	font-size: 20px;
 	display: inline-block;
@@ -80,10 +80,9 @@
 /*Second Banner Style*/
 .second_ad_container{	 
     position: relative;
-    bottom: 0px;
-	width: 330px;
+	width: 331px;
 	height: 408px;
-	margin: 10% auto auto auto;
+	margin: 10% auto 10% auto;
 }
 
 .second_ad_container .top_text{
@@ -97,8 +96,8 @@
     width: 100%;
     height: 389px;
     display: block;
-    background-size: 130%;
-    background-position: 60% -30%;
+    background-size: 100%;
+    background-position: top right;
     background-image: linear-gradient(to bottom, transparent 25%, black 50%),url('Media/AdPicture.jpg');
 	color: white;
 	
