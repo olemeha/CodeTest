@@ -103,7 +103,6 @@
     background-position: top right;
     background-image: linear-gradient(to bottom, transparent 25%, black 50%),url('Media/AdPicture.jpg');
 	color: white;
-	
 }
 .second_ad_container .text_container .icon_and_text{
 	width: 92%;
@@ -134,7 +133,6 @@
 .second_ad_container .text_container .first_text h3{
 	font-size: 1.3em;
 	font-family: 'Roboto', sans-serif;
-
 }
 .second_ad_container .text_container .second_text{
 	width: 92%;
@@ -160,7 +158,6 @@
 	padding: 15px 32px;
 }
 .second_ad_container .text_container .third_text button:hover{
-
 	background: crimson;
 	color: lightgray;
 }
