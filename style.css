@@ -39,7 +39,7 @@
 	margin-right: 20px;
 }
 
-.first_ad_container .text_container .icon_and_text {
+.first_ad_container .text_container .container_wrapper .icon_and_text {
 	margin-top: 1rem;
 	margin-left: 1.5rem;
 	flex-direction: row;
@@ -47,38 +47,38 @@
 	text-transform: uppercase;
 }
 
-.first_ad_container .text_container .icon_and_text i {
+.first_ad_container .text_container .container_wrapper .icon_and_text i {
 	margin-right: 10px;
 	float: left;
 	font-size: 20px;
 }
 
-.first_ad_container .text_container .icon_and_text span {
+.first_ad_container .text_container .container_wrapper .icon_and_text span {
 	padding-top: 4px;
 	font-size: 10px;
 	font-family: "Cabin", sans-serif;
 }
 
-.first_ad_container .text_container .first_text {
+.first_ad_container .text_container .container_wrapper .first_text {
 	margin-top: 1.275rem;
 	margin-left: 1.5rem;
 	padding-right: 600px;
 	display: inline-flex;
 }
 
-.first_ad_container .text_container .first_text h3 {
+.first_ad_container .text_container .container_wrapper .first_text h3 {
 	font-size: 2rem;
 	font-family: "Roboto", sans-serif;
 }
 
-.first_ad_container .text_container .second_text {
+.first_ad_container .text_container .container_wrapper .second_text {
 	margin-top: 1.275rem;
 	margin-left: 1.5rem;
 	display: inline-flex;
 	padding-right: 750px;
 }
 
-.first_ad_container .text_container .second_text p {
+.first_ad_container .text_container .container_wrapper .second_text p {
 	font-family: 'Avenir-Roman', 'Avenir', sans-serif;
 	font-weight: 400;
 	line-height: 130%;
@@ -87,14 +87,14 @@
 	font-size: 0.875rem;
 }
 
-.first_ad_container .text_container .button_component {
+.first_ad_container .text_container .container_wrapper .button_component {
 	display: inline-flex;
 	margin-top: 1.275rem;
 	margin-left: 1.5rem;
 	width: 25%;
 }
 
-.first_ad_container .text_container .button_component button {
+.first_ad_container .text_container .container_wrapper .button_component button {
 	font-family: 'Avenir-Heavy', 'Avenir', sans-serif;
 	font-weight: 800;
 	line-height: 150%;
@@ -110,7 +110,7 @@
 
 }
 
-.first_ad_container .text_container .button_component button:hover {
+.first_ad_container .text_container .container_wrapper .button_component button:hover {
 	background: #9b132b;
 	cursor: pointer;
 }
@@ -120,20 +120,20 @@
 		height: 45vh;
 	}
 
-	.first_ad_container .text_container .icon_and_text span {
+	.first_ad_container .text_container .container_wrapper .icon_and_text span {
 		font-size: 0.675em;
 	}
 
-	.first_ad_container .text_container .first_text {
+	.first_ad_container .text_container .container_wrapper .first_text {
 		padding-right: 200px;
 		margin-top: 1rem;
 	}
 
-	.first_ad_container .text_container .first_text h3 {
+	.first_ad_container .text_container .container_wrapper .first_text h3 {
 		font-size: 2.175rem;
 	}
 
-	.first_ad_container .text_container .second_text {
+	.first_ad_container .text_container .container_wrapper .second_text {
 		padding-right: 625px;
 	}
 }
@@ -150,26 +150,26 @@
 		url("Media/AdPicture-tablet.jpg");
 	}
 
-	.first_ad_container .text_container .icon_and_text span {
+	.first_ad_container .text_container .container_wrapper .icon_and_text span {
 		font-size: 0.875em;
 	}
 
-	.first_ad_container .text_container .first_text {
+	.first_ad_container .text_container .container_wrapper .first_text {
 		padding-right: 0;
 	}
 
-	.first_ad_container .text_container .first_text h3 {
+	.first_ad_container .text_container .container_wrapper .first_text h3 {
 		font-size: 2.675rem;
 	}
 
-	.first_ad_container .text_container .second_text {
+	.first_ad_container .text_container .container_wrapper .second_text {
 		padding-right: 400px;
 	}
 
-	.first_ad_container .text_container .second_text p {
+	.first_ad_container .text_container .container_wrapper .second_text p {
 		font-size: 1rem;
 	}
-	.first_ad_container .text_container .button_component {
+	.first_ad_container .text_container .container_wrapper .button_component {
 		width: 35%;
 	}
 }
@@ -188,41 +188,41 @@
 		background-image: linear-gradient(to bottom, transparent 28%, black 35%),
 			url("Media/AdPicture-mobilev3.jpg");
 	}
-	.first_ad_container .container_wrapper.center{
+	.first_ad_container .text_container .container_wrapper.center{
 		margin-right:0;
 		margin-left: 0;
 	}
-	.first_ad_container .text_container .icon_and_text {
+	.first_ad_container .text_container .container_wrapper .icon_and_text {
 		margin-left: 0.5rem;
 		margin-right: 0.5rem;
 		margin-top: 0;
 	}
-	.first_ad_container .text_container .icon_and_text span {
+	.first_ad_container .text_container .container_wrapper .icon_and_text span {
 		font-size: 0.575em;
 	}
 
-	.first_ad_container .text_container .first_text {
+	.first_ad_container .text_container .container_wrapper .first_text {
 		padding-right: 0;
 		margin-top: 0.675rem;
 		margin-left: 0.5rem;
 		margin-right: 0.5rem;
 	}
 
-	.first_ad_container .text_container .first_text h3 {
+	.first_ad_container .text_container .container_wrapper .first_text h3 {
 		font-size: 1.475rem;
 	}
 
-	.first_ad_container .text_container .second_text {
+	.first_ad_container .text_container .container_wrapper .second_text {
 		padding-right: 0;
 		margin-top: 0.675rem;
 		margin-left: 0.5rem;
 		margin-right: 0.5rem;
 	}
 
-	.first_ad_container .text_container .second_text p {
+	.first_ad_container .text_container .container_wrapper .second_text p {
 		font-size: 0.875rem;
 	}
-	.first_ad_container .text_container .button_component {
+	.first_ad_container .text_container .container_wrapper .button_component {
 		width: 95%;
 		align-items: center;
 		margin-top: 0.675rem;
@@ -235,7 +235,7 @@
 	.first_ad_container .text_container {
 		height: 65vh;
 	}
-	.first_ad_container .text_container .first_text h3 {
+	.first_ad_container .text_container .container_wrapper .first_text h3 {
 		font-size: 1.375rem;
 	}
 }
