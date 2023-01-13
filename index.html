@@ -3,6 +3,7 @@
   <head>
     <title>Code Test</title>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<link rel="stylesheet" media="screen" href="style.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -11,32 +12,30 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 		<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@700&display=swap" rel="stylesheet">
   </head>
+  <!--style="cursor:pointer;" onclick="window.location.href='https://www.yummly.com/thermometer';"-->
   <body>
 		<div id="page_container">
 			<div class="first_ad_container">
-				<div class="top_text">
-					<p>FeaturedDeals</p>
-				</div>
-				<div class="text_container" style="cusor:pointer;" onclick="window.location.href='https://www.yummly.com/thermometer';" >
-					<div class="icon_and_text">
-						<i class="fa fa-tag"></i>
-						<span class="text">Featured Offer</span>
+				<div class="text_container">
+					<div class="container_wrapper center">
+						<div class="icon_and_text">
+							<i class="fa fa-tag"></i>
+							<span class="text">Featured Offer</span>
+						</div>
+						<div class="first_text">
+							<h3> $40 OFF THE YUMMLY SMART MEAT THERMOMETER WITH BLUETOOTH</h3>
+						</div>
+						<div class="second_text">
+							<p> Get the results you want, every time, with the completely wireless Yummly<sup>&#174;</sup> meat thermometer.</p>
+						</div>
+						<div class="button_component">
+							<button id="shopNowButton" title="Shop Yummly Sales." onclick="gotoLink(this)" value="https://www.yummly.com/thermometer#buynow">Shop Now</button>
+						</div> 
 					</div>
-					<div class="first_text">
-						<h3> $40 OFF THE YUMMLY SMART MEAT THERMOMETER WITH BLUETOOTH</h3>
-					</div>
-					<div class="second_text">
-						<p> Get the results you want, every time, with the completely wireless Yummly&#174; meat thermometer.</p>
-					</div>
-					<div class="third_text">
-						<a href="https://www.yummly.com/thermometer#buynow">Shop Now ></a>
-					</div> 
 				</div>		
 			</div>
-			<div class="second_ad_container" style="cusor:pointer;" onclick="window.location.href='https://www.yummly.com/thermometer';">
-				<div class="top_text">
-					<p>Frame 4</p>
-				</div>
+			
+			<!--<div class="second_ad_container" style="cursor:pointer;" onclick="window.location.href='https://www.yummly.com/thermometer';">
 				<div class="text_container">
 					<div class="icon_and_text">
 						<i class="fa fa-tag"></i>
@@ -52,7 +51,7 @@
 						<button id="shopNowButton" onclick="gotoLink(this)" value="https://www.yummly.com/thermometer#buynow">Shop Now</button>
 					</div> 
 				</div>		
-			</div>
+			</div>-->
 		</div>
 	</body>
 </html>
